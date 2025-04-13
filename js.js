@@ -31,4 +31,7 @@ function novoToDo () {
         novaTarefa.value = "";
 
     }
+    function editor () {
+        let editor = document.createElement('span')
+    }
 }
