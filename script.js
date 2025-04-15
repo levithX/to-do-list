@@ -48,5 +48,5 @@ function criardorBotao () {
 }
 
 function editor() { 
-//fiquei preso nisso, nao sei como progredir 
+    
 }
