@@ -31,7 +31,22 @@ function novoToDo () {
         novaTarefa.value = "";
 
     }
-    function editor () {
-        let editor = document.createElement('span')
-    }
+}
+
+function criardorBotao () {
+    let todasTarefas = document.querySelectorAll('#lista > div')
+    todasTarefas.forEach((tarefa) => {
+        if (tarefa.querySelector('.editar-btn')) return;
+        let editorMenor = document.createElement('button');
+        editorMenor.textContent = 'editar'; 
+        editorMenor.addEventListener("editar", editor)
+        editorMenor.classList.add('editar-btn');
+        tarefa.appendChild(editorMenor);
+
+       
+    })
+}
+
+function editor() { 
+//fiquei preso nisso, nao sei como progredir 
 }
